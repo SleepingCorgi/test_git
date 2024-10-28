@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MyButton.qml</file>
+        <file>ComboboxDemo.qml</file>
+        <file>MainPage.qml</file>
+        <file>SettingPage.qml</file>
+        <file>MainPageButton.qml</file>
+        <file>SettingPageButton.qml</file>
+        <file>PopUpDemo.qml</file>
+    </qresource>
+</RCC>
