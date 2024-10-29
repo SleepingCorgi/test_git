@@ -126,6 +126,25 @@ Page {
 
         }
     }
+
+    NumberAdjester{
+        id: adjuster1
+        anchors.right: parent.right
+        minValue: 10
+        maxValue: 105
+        value: 100  // 初始值
+
+        onCurrentValueChanged: {
+            console.log("Current value: " + currentValue)
+        }
+    }
+
+    SliderDemo{
+        id:sliderDemo1
+        anchors.right: parent.right
+        anchors.bottom: parent.bottom
+    }
+
 }
 
 

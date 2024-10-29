@@ -8,5 +8,7 @@
         <file>MainPageButton.qml</file>
         <file>SettingPageButton.qml</file>
         <file>PopUpDemo.qml</file>
+        <file>NumberAdjester.qml</file>
+        <file>SliderDemo.qml</file>
     </qresource>
 </RCC>

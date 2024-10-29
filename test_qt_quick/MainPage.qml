@@ -30,6 +30,7 @@ Page {
         x:595
         y:150
         // imageSource:"images/003.png"
+        test:""
         onBtnclicked: {
             console.log("MPButton clicked!")
             stackView.push(settingsPage)  // 切换到 SettingsPage

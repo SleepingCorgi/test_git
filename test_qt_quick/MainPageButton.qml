@@ -9,10 +9,11 @@ Rectangle{
 
     signal btnclicked
     property alias imageSource: buttonImage.source
+    property alias test: buttontext.text
 
     Image {
         id: buttonImage
-        source: "images/pedal-b  utton.png"  // 替换为你的图片路径
+        source: "images/pedal-button.png"  // 替换为你的图片路径
         //anchors.fill: parent
         anchors.centerIn: parent
         smooth: true
@@ -21,7 +22,7 @@ Rectangle{
 
     Text {
         id: buttontext
-        text: qsTr("text-001")
+        text: "text-001"
         anchors.centerIn: parent
         color:"black" //默认颜色
         font.pixelSize: 16
